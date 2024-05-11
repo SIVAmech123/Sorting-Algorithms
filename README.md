@@ -30,7 +30,7 @@ def Insertionsort(arr):
        arr[j], arr[j-1]=arr[j-1], arr[j]
        j-=1
     return arr
-arr=eval(input())
+arr=eval(input()) 
 print(Insertionsort(arr))
 
 
